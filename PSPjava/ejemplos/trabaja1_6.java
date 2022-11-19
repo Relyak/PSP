@@ -1,4 +1,4 @@
-package ejemplos;
+
 import java.util.Scanner;
 
 public class trabaja1_6 {
