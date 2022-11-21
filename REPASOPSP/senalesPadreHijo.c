@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <signal.h>
 //defino una funcion que recibirá un int
-void sighandler(int);
+void cogeSenal(int);
 
 int main () {
    signal(SIGINT, sighandler);
@@ -17,7 +17,7 @@ int main () {
    return(0);
 }
 //funcion ya definida antes que recibe un proceso
-void sighandler(int proceso) {
+void cogeSenal(int proceso) {
    
    //si hago control c se hace un fork
    if(proceso==2){
