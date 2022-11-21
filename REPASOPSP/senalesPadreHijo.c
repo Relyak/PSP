@@ -27,5 +27,3 @@ void cogeSenal(int proceso) {
 
    //exit(1);
 }
-
-
