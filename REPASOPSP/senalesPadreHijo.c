@@ -6,8 +6,8 @@
 void cogeSenal(int);
 
 int main () {
-   signal(SIGINT, sighandler);
-   signal(SIGKILL, sighandler);
+   signal(SIGINT, cogeSenal);
+   signal(SIGKILL, cogeSenal);
 	//bucle infinito que simplemente muestra el pid del proceso y espera un segundo
    while(1) {
       printf("Interrúmpeme si puedes, soy el proceso %d \n",getpid());
