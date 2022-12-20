@@ -1,5 +1,5 @@
+package UT1Ejem;
 import java.io.*;
-
 public class Ejemplo4 {
 	public static void main(String[] args) throws IOException {
 		Process p = new ProcessBuilder("CMD", "/C", "DATE").start();

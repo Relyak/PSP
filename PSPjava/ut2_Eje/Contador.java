@@ -1,4 +1,4 @@
-package psp02;
+package ut2_Eje;
 class Contador {
 	
 

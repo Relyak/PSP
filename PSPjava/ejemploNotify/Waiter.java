@@ -1,3 +1,4 @@
+package ejemploNotify;
 public class Waiter implements Runnable {
     private Message msg;
 

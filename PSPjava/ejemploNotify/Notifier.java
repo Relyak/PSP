@@ -1,4 +1,4 @@
-
+package ejemploNotify;
 public class Notifier implements Runnable {
     private Message msg;
 

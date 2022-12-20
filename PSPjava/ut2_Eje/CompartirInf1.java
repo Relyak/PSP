@@ -1,7 +1,7 @@
-package psp02;
+package ut2_Eje;
 
 public class CompartirInf1 {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		Contador contador = new Contador(100);
 		HiloA a = new HiloA( "HiloA", contador) ;
 		HiloB b = new HiloB( "HiloB", contador);

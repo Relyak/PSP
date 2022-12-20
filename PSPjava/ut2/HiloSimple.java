@@ -1,3 +1,4 @@
+package ut2;
 public class HiloSimple extends Thread {
 	
 	public void run() {

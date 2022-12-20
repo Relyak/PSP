@@ -1,4 +1,4 @@
-
+package ut2_Eje;
 
 class HiloB extends Thread {
 	private Contador contador;
